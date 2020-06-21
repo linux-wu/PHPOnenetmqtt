@@ -340,8 +340,8 @@ class DeviceReport {
         $func_list = [
             [
                 // 'func_id' => [
-                //     'data_type' => Onenetconfig::FUNCTION_DATA_FLOAT, //数据类型 常量
-                //     'func_type' => Onenetconfig::FUNCTION_TYPE_CUSTOM, //功能类型 常量
+                //     'data_type' => OnenetConfig::FUNCTION_DATA_FLOAT, //数据类型 常量
+                //     'func_type' => OnenetConfig::FUNCTION_TYPE_CUSTOM, //功能类型 常量
                 //     'resouce_id' => 28928,
                 // ],
                 'custom_func_id' => 28928,
