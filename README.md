@@ -11,4 +11,4 @@ example:
 }
 3./usr/local/php/bin/php demo.php . run for device register.
 4. you can see the report info after device register . DevReportJsonInfo.json include the token and report addr.
-4./usr/local/php/binphp  demo2.php . run for device report info;
+5./usr/local/php/binphp  demo2.php . run for device report info;
