@@ -331,10 +331,10 @@ class DeviceReport {
         $this->message->setVersion(1); //版本 1
         $this->message->setMsgId(1); //消息id 1
         $options = [
-            'options_type' => Onenetconfig::OPTIONS_TYPE_REQUEST, //请求 常量
-            'options_dev' => Onenetconfig::OPTIONS_DEV_GATE, //设备 常量
-            'options_target' => Onenetconfig::OPTIONS_TARGET_RESOURCE, //系统 常量
-            'options_act' => Onenetconfig::OPTIONS_ACT_NOTIFY, // 常量
+            'options_type' => OnenetConfig::OPTIONS_TYPE_REQUEST, //请求 常量
+            'options_dev' => OnenetConfig::OPTIONS_DEV_GATE, //设备 常量
+            'options_target' => OnenetConfig::OPTIONS_TARGET_RESOURCE, //系统 常量
+            'options_act' => OnenetConfig::OPTIONS_ACT_NOTIFY, // 常量
         ];
         $this->message->setOptions($options);
         $func_list = [
