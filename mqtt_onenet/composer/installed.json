@@ -1,0 +1,47 @@
+[
+    {
+        "name": "try-to/swoole_mqtt",
+        "version": "v0.0.5",
+        "version_normalized": "0.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/try-to/swoole_mqtt.git",
+            "reference": "d66f30b34e8105b065bb823d604aa9844a26ce8e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/try-to/swoole_mqtt/zipball/d66f30b34e8105b065bb823d604aa9844a26ce8e",
+            "reference": "d66f30b34e8105b065bb823d604aa9844a26ce8e",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-swoole": ">=2.1",
+            "php": ">=7.0.0"
+        },
+        "time": "2018-12-14T06:41:54+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TrytoMqtt\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "try-to",
+                "email": "w@tryto.cn"
+            }
+        ],
+        "description": "swoole mqtt client"
+    }
+]
