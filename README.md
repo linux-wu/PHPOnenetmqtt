@@ -2,15 +2,21 @@
 
 PHP VERSION Cmcc OneNet Mqtt Message Tool
 Instructions for use
+
 1.**cd mqtt_onenet\Onenet directory**;
 
 2.**edit the file name: DeviceInfo.json** . write the cmcc onenet device info :
 example:
+
+```
   {
     "productId": "123423",
     "regCode": "wuuufjvjfus",
     "sn": "sn00001"
 }
+```
+
+
 
 3. **/usr/local/php/bin/php demo.php** . run for device register.
 
